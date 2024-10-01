@@ -1,11 +1,12 @@
-﻿using AlturCase.Areas.Identity.Pages.Account;
-using AlturCase.Models.Dto.Request;
+﻿using AlturCase.Models.Dto.Request;
+using Microsoft.AspNetCore.Identity;
 
 namespace AlturCase.Services.Abstract
 {
     public interface IAuthService
     {
-        Task<bool> Login(LoginUserDto LoginUserDto);
+        public string GenerateTokenString(IdentityUser user, LoginUserDto loginUserDto);
+        Task<IdentityUser> Login(LoginUserDto LoginUserDto);
         Task<bool> RegisterUser(RegisterUserDto registerUserDto);
     }
 }

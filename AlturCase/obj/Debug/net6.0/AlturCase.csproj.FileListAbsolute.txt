@@ -286,3 +286,5 @@ C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\refint\AlturCas
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.pdb
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.genruntimeconfig.cache
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\ref\AlturCase.dll
+C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

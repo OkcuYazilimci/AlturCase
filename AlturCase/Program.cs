@@ -15,6 +15,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddRazorPages();
 builder.Services.AddTransient<IAuthService, AuthService>();
+builder.Services.AddTransient<IProductService, ProductService>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -46,15 +47,15 @@ builder.Services.AddAuthentication(options =>
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 }).AddJwtBearer(options =>
    {
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = builder.Configuration["Jwt:Issuer"],
-            ValidAudience = builder.Configuration["Jwt:Audience"],
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+       options.TokenValidationParameters = new TokenValidationParameters
+       {
+           ValidateIssuer = true,
+           ValidateAudience = true,
+           ValidateLifetime = true,
+           ValidateIssuerSigningKey = true,
+           ValidIssuer = builder.Configuration.GetSection("Jwt:Issuer").Value,
+           ValidAudience = builder.Configuration.GetSection("Jwt:Audience").Value,
+           IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
         };
    });
 
@@ -63,6 +64,8 @@ var app = builder.Build();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+//NOTE: Always authentication comes before the authorization
 app.UseAuthentication();
 app.UseAuthorization();
 

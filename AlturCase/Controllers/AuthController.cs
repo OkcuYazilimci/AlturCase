@@ -39,12 +39,16 @@ namespace AlturCase.Controllers
                 return BadRequest(ModelState);
             }
 
-            var result = await _authService.Login(loginUserDto);
-            if (result == true)
+            var identityUser = await _authService.Login(loginUserDto);
+            if (identityUser == null)
             {
-                return Ok("Done");
+                return Unauthorized("Invalid credentials.");
             }
-            return BadRequest();
+
+            var tokenString = _authService.GenerateTokenString(identityUser, loginUserDto);
+                return Ok($"User {tokenString} logged in. Success!");
+            
+            return BadRequest("Email or password is wrong!");
         }
     }
 }

@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.16" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.33" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.33" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.33" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.33">
@@ -20,10 +20,11 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.10.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.17" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.1.0" />
   </ItemGroup>
 
   <ItemGroup>
