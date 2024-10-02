@@ -150,11 +150,3 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 ## Authors
 
 - [@OkcuYazilimci](https://github.com/OkcuYazilimci)
-
-=======
-# AlturCase
-Features
-User Authentication: Core Identity and JWT-based authentication for secure access.
-Product Management: CRUD (Create, Read, Update, Delete) operations on products.
-Ownership Validation: Ensures that users can only update/delete their own products.
->>>>>>> ad26dfbb44a81114d5b384a540592533056a123a
