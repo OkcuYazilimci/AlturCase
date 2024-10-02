@@ -4,6 +4,8 @@ Kullanıcılar, Core Identity ile giriş yaparak ürün yönetimi işlemlerini g
 
 Uygulama, **Clean Architecture** kullanılarak düzenlenmiştir.
 
+Normalde **appsettings.json** dosyası .gitignore konulması gerekir. İşlemler hızlı olması için pushladım.
+
 
 ## Features
 
