@@ -2,6 +2,8 @@
 
 Kullanıcılar, Core Identity ile giriş yaparak ürün yönetimi işlemlerini gerçekleştirecek bir API geliştirilecek. Bu API, ürün ekleme, güncelleme, silme ve listeleme işlemlerini içerir. Entity Framework Core ve Identity kullanılarak veritabanı migrasyonu yapılacak ve Mssql veritabanı kullanılacaktır.
 
+Uygulama, **Clean Architecture** kullanılarak düzenlenmiştir.
+
 
 ## Features
 
