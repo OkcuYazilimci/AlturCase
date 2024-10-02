@@ -6,6 +6,7 @@ Uygulama, **Clean Architecture** kullanılarak düzenlenmiştir.
 
 Normalde **appsettings.json** dosyası .gitignore konulması gerekir. İşlemler hızlı olması için pushladım.
 
+<img width="526" alt="SWAGGER" src="https://github.com/user-attachments/assets/57d30edd-4ac4-4e41-8d76-3150dc213fed">
 
 ## Features
 
