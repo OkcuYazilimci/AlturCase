@@ -91,7 +91,7 @@ else
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-        c.RoutePrefix = "swagger";
+        c.RoutePrefix = string.Empty;
     });
 }
 

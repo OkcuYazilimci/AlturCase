@@ -44,7 +44,8 @@ namespace AlturCase.Web.Controllers
             {
                 var tokenString = _authService.GenerateTokenString(identityUser, loginUserDto);
                 Response.Headers.Add("Authorization", $"Bearer {tokenString}");
-                return Ok($"User {tokenString} logged in. Success!");
+                Console.WriteLine($"TOKEN: {tokenString}");
+                return Ok($"User {loginUserDto.Email} logged in. Success!");
             }
             catch (ApplicationException ex)
             {
