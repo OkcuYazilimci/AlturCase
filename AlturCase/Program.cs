@@ -4,11 +4,11 @@ using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using AlturCase.Services.Concrete;
 using AlturCase.Core.Interfaces;
 using AlturCase.Infrastructure.Data;
 using AlturCase.Application.Services;
 using AlturCase.Application.Utils;
+using AlturCase.Application.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -68,17 +68,18 @@ builder.Services.AddAuthentication(options =>
 
 var app = builder.Build();
 
-app.UseStaticFiles();
-
 app.UseRouting();
+
+app.UseMiddleware<JwtMiddleware>();
 
 //NOTE: Always authentication comes before the authorization
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
 
 if (!app.Environment.IsDevelopment())
 {

@@ -5,5 +5,7 @@ namespace AlturCase.Core.Interfaces
     public interface IJwtService
     {
         string GenerateToken(IEnumerable<Claim> claims);
+        public Guid? ValidateTokenAndGetUserId(string token);
+
     }
 }

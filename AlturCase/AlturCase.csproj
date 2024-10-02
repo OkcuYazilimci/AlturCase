@@ -30,6 +30,7 @@
 
   <ItemGroup>
     <Folder Include="Core\Dto\Response\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

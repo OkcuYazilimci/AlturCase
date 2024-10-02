@@ -9,9 +9,7 @@ namespace AlturCase.Application.Utils
         public MappingProfile()
         {
             CreateMap<ProductUpdateDto, ProductEntity>()
-            .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
-
-            //TODO: add useridentity update mapping here
+                .ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null)); // Works for nullable types
         }
     }
 }

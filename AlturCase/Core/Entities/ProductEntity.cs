@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using AlturCase.Core.Interfaces;
+using System.ComponentModel.DataAnnotations;
 
 namespace AlturCase.Core.Entities
 {
-    public class ProductEntity
+    public class ProductEntity : IOwnedEntity
     {
         [Key]
         public Guid Id { get; set; }

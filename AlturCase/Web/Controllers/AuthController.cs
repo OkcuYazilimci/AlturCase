@@ -4,7 +4,7 @@ using AlturCase.Core.Dto.Request.User;
 
 namespace AlturCase.Web.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/auth")]
     [ApiController]
     public class AuthController : ControllerBase
     {
@@ -15,7 +15,7 @@ namespace AlturCase.Web.Controllers
             _authService = authService;
         }
 
-        [HttpPost("Register")]
+        [HttpPost("register")]
         public async Task<IActionResult> RegisterUser(RegisterUserDto registerUserDto)
         {
             if (await _authService.RegisterUser(registerUserDto))
@@ -26,7 +26,7 @@ namespace AlturCase.Web.Controllers
             return BadRequest("User could not created");
         }
 
-        [HttpPost("Login")]
+        [HttpPost("login")]
         public async Task<IActionResult> Login(LoginUserDto loginUserDto)
         {
             if (!ModelState.IsValid)

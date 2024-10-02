@@ -8,7 +8,7 @@ using System.Security.Claims;
 
 namespace AlturCase.Web.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/product")]
     [ApiController]
     [Authorize]
     public class ProductController : ControllerBase
@@ -20,7 +20,7 @@ namespace AlturCase.Web.Controllers
             _productService = productService;
         }
 
-        [HttpPost("create")]
+        [HttpPost]
         public async Task<IActionResult> CreateProduct([FromBody] ProductCreateDto productCreateDto)
         {
             if (!ModelState.IsValid)
@@ -48,6 +48,25 @@ namespace AlturCase.Web.Controllers
             return Ok(product);
         }
 
+        [HttpPut("{id}")]
+        [CtxUser(typeof(ProductEntity))]
+        public async Task<IActionResult> UpdateProduct(Guid id, [FromBody] ProductUpdateDto productUpdateDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var updateProduct = await _productService.UpdateProduct(id, productUpdateDto);
+
+            if (updateProduct == null)
+            {
+                return NotFound("Product not found or could not be updated.");
+            }
+
+            return Ok(updateProduct);
+        }
+
         [HttpGet]
         public async Task<IActionResult> GetProducts()
         {
@@ -65,27 +84,8 @@ namespace AlturCase.Web.Controllers
             return Ok(product);
         }
 
-        [HttpPut("{id}")]
         [CtxUser(typeof(ProductEntity))]
-        public async Task<IActionResult> UpdateProduct(Guid productId, [FromBody] ProductUpdateDto productUpdateDto)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            var updateProduct = await _productService.UpdateProduct(productId, productUpdateDto);
-
-            if (updateProduct == null)
-            {
-                return NotFound("Product not found or could not be updated.");
-            }
-
-            return Ok(updateProduct);
-        }
-
         [HttpDelete("{id}")]
-        [CtxUser(typeof(ProductEntity))]
         public async Task<IActionResult> DeleteProduct(Guid id)
         {
             try
