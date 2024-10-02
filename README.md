@@ -70,6 +70,8 @@ Normalde **appsettings.json** dosyası .gitignore konulması gerekir. İşlemler
 
 - Postman'da test için görseldeki commenti kaldırın
 
+  <img width="404" alt="Capture" src="https://github.com/user-attachments/assets/0ee538b9-c4a1-423f-99d7-b633fb0aadf2">
+
 - Postamanda login işlemi yaptıktan sonra console'daki tokeni **ctrl+shift+c** ile kopyalayın.
 
 - Product'taki API'lere erişmek için Postamanda Bearer Auth kısmına kopyaladığınız token'i yapıştırın
