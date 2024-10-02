@@ -18,7 +18,7 @@ Normalde **appsettings.json** dosyası .gitignore konulması gerekir. İşlemler
 
 ## Tech Stack
 
-**Server:** .Net 6 SDK, MS SQL Server, Postman, Swagger, EntityFramework
+**Server:** .Net 6 SDK, MS SQL Server, Postman, Swagger, EntityFramework, Identity
 
 
 ## Badges
