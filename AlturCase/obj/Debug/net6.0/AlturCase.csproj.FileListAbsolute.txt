@@ -1,12 +1,3 @@
-C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.csproj.AssemblyReference.cache
-C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.AssemblyInfoInputs.cache
-C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.AssemblyInfo.cs
-C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.csproj.CoreCompileInputs.cache
-C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.RazorAssemblyInfo.cache
-C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.RazorAssemblyInfo.cs
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\appsettings.json
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\AlturCase.staticwebassets.runtime.json
@@ -15,6 +6,8 @@ C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\AlturCase.deps.
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\AlturCase.runtimeconfig.json
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\AlturCase.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\AlturCase.pdb
+C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Humanizer.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\MessagePack.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\MessagePack.Annotations.dll
@@ -25,6 +18,7 @@ C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.AspNe
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -51,6 +45,7 @@ C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.Exten
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
@@ -270,6 +265,13 @@ C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\runtimes\win\li
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.csproj.AssemblyReference.cache
+C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.AssemblyInfoInputs.cache
+C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.AssemblyInfo.cs
+C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.csproj.CoreCompileInputs.cache
+C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\staticwebassets\msbuild.AlturCase.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\staticwebassets\msbuild.build.AlturCase.props
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AlturCase.props
@@ -277,14 +279,10 @@ C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\staticwebassets
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\scopedcss\bundle\AlturCase.styles.css
-C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\scopedcss\projectbundle\AlturCase.bundle.scp.css
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.csproj.CopyComplete
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\refint\AlturCase.dll
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.pdb
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\AlturCase.genruntimeconfig.cache
 C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\obj\Debug\net6.0\ref\AlturCase.dll
-C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.Bcl.TimeProvider.dll
-C:\Users\ituum\Desktop\alturCaseFinal\AlturCase\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

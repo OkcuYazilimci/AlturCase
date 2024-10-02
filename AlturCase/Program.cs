@@ -1,21 +1,24 @@
-using AlturCase.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using AlturCase.Services.Abstract;
 using AlturCase.Services.Concrete;
+using AlturCase.Core.Interfaces;
+using AlturCase.Infrastructure.Data;
+using AlturCase.Application.Services;
+using AlturCase.Application.Utils;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddRazorPages();
 builder.Services.AddTransient<IAuthService, AuthService>();
 builder.Services.AddTransient<IProductService, ProductService>();
+builder.Services.AddTransient<IJwtService, JwtService>();
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -35,6 +38,10 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("AlturDbConneciton")));
+
+builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
     {
@@ -68,8 +75,6 @@ app.UseRouting();
 //NOTE: Always authentication comes before the authorization
 app.UseAuthentication();
 app.UseAuthorization();
-
-app.MapRazorPages();
 
 app.MapControllerRoute(
     name: "default",

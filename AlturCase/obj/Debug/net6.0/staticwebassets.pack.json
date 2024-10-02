@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ituum\\Desktop\\alturCaseFinal\\AlturCase\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AlturCase.bundle.scp.css",
-      "PackagePath": "staticwebassets\\AlturCase.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\ituum\\Desktop\\alturCaseFinal\\AlturCase\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

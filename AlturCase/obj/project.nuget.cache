@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gTT58mSl1GSr4GUl3xNtAgu1SXy+LU77zMPVJV1rcWGchc0eD1P8GhEEAke+DodCUmcj1geKQU1pt67kw6wzKw==",
+  "dgSpecHash": "I7Wpke58Z3u8Z3vtf3oYib/tkSXKZDcy0os7/okPZiEGwUi5OG6DuwVfqDfoSy+R19bU0N43mo0CBU+VDfK2bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ituum\\Desktop\\alturCaseFinal\\AlturCase\\AlturCase.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ituum\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\ituum\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\ituum\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\ituum\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ituum\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -75,6 +77,7 @@
     "C:\\Users\\ituum\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.0\\microsoft.codeanalysis.razor.6.0.0.nupkg.sha512",
     "C:\\Users\\ituum\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\4.0.0\\microsoft.codeanalysis.scripting.common.4.0.0.nupkg.sha512",
     "C:\\Users\\ituum\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.0.0\\microsoft.codeanalysis.workspaces.common.4.0.0.nupkg.sha512",
+    "C:\\Users\\ituum\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ituum\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
     "C:\\Users\\ituum\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\ituum\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.33\\microsoft.data.sqlite.core.6.0.33.nupkg.sha512",
