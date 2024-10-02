@@ -55,10 +55,15 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
   Update-Database
 ```
 
-5. Projeyi Build > Build Solution kullanarak da çalıştırabilirsiniz ya da
+5. Projeyi Build > Build Solution kullanarak build edebilirsiniz ya da
 
 ```powershell
   MSBuild
+```
+6. Projeyi Çalıştırmak için 
+
+```powershell
+  dotnet run
 ```
 
 ## Test Through Postman
